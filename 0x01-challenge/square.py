@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Square/Rectangle class."""
+
 
 class Square():
     """Square class (more like rectangle)."""
@@ -23,6 +25,7 @@ class Square():
 
 
     def __str__(self):
+        """Output method."""
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
